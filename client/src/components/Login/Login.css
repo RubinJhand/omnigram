@@ -1,0 +1,76 @@
+.login {
+  background-color: rgba(250, 250, 250, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__container {
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.login__container > h1 {
+  margin: 22px auto 12px;
+  height: 50px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > p {
+  color: rgba(142, 142, 142, 1);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 15px 18px;
+  text-transform: uppercase;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 91%;
+  background: rgba(250, 250, 250, 1);
+  flex: 1 0 auto;
+  overflow: hidden;
+  padding: 1px 9px;
+  text-overflow: ellipsis;
+  color: rgba(38, 38, 38, 1);
+  line-height: 18px;
+  font: 400 13.3333px Arial;
+  border: 1px solid rgba(219, 219, 219, 1);
+  border-radius: 3px;
+}
+
+.login__signInButton,
+.login__registerButton {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px 9px;
+  color: rgba(255, 255, 255);
+  background-color: rgba(0, 149, 246, 0.5);
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid transparent;
+  margin-top: 0 10px;
+}
+
+.login__registerButton {
+  background-color: rgba(0, 149, 246, 0.8);
+}
